@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.wiredbrain.friends.SystemTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.214 s <<< FAILURE! - in com.wiredbrain.friends.SystemTests
+testCreateReadDelete  Time elapsed: 0.213 s  <<< ERROR!
+java.lang.IllegalArgumentException: protocol = http host = null
+	at com.wiredbrain.friends.SystemTests.testCreateReadDelete(SystemTests.java:18)
+
